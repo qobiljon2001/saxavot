@@ -1,0 +1,125 @@
+#employment-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #employment-page-header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+  }
+  
+  #employment-page-header > :nth-child(1) {
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+    color: #515666;
+  }
+  #employment-page-header > :nth-child(2) {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #515666;
+    padding-top: 10px;
+  }
+  
+  #employment-page-table {
+    width: 100%;
+    height: 75vh;
+    padding: 1%;
+    background-color: #ffffff;
+    overflow: auto;
+  }
+  
+  #employment-page-table-header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1%;
+  }
+  
+  #employment-page-table-header > div > button {
+    margin-right: 10px;
+    font-size: 13px;
+  }
+  #employment-page-table-header > div >a{
+    text-decoration: none;
+    /* margin-right: 10px; */
+  }
+  
+  #employment-page-table-header > button a {
+    font-size: 12px;
+  }
+  
+  #families-table {
+    width: 100%;
+  }
+  
+  #families-table,
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    border-collapse: collapse;
+  }
+  
+  #families-table > thead {
+    width: 100%;
+    height: auto;
+    background-color: #eff0f4;
+  }
+  
+  #table-header-top > div {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  #table-header-top > div > span {
+    color: #515666;
+    margin-bottom: 7px;
+    font-size: 12px;
+  }
+  
+  #table-header-top > div > select {
+    padding: 4px;
+    font-size: 12px;
+    outline: none;
+  }
+  #table-header-top > div > input {
+    padding: 4px;
+    font-size: 12px;
+    outline: none;
+  }
+  
+  /* families-table-tbody */
+  
+  #families-table-tbody > tr > td {
+    padding: 1% 0.5%;
+  }
+  
+  #families-table-tbody > tr > :first-child {
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+  }
+  #table-header-checkbox input{
+    width: 18px;
+    height: 18px;
+  }
+  

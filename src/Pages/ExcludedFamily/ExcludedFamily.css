@@ -1,0 +1,134 @@
+#excluded-family {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#excluded-family-header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+
+#excluded-family-header :nth-child(1) {
+    font-size: 19px;
+    font-weight: 600;
+    color: #515666;
+    padding-bottom: 10px;
+}
+
+#excluded-family-header :nth-child(2) {
+    font-size: 20px;
+    color: #515666;
+    font-weight: 700;
+}
+
+
+#excluded-family-page-table {
+    width: 100%;
+    height: 75vh;
+    padding: 1%;
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+#excluded-family-page-header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1%;
+}
+
+#excluded-family-page-header > div button {
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+#excluded-family-page-header > button {
+  font-size: 13px;
+}
+
+#excluded-family-page-header > div > button a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+#ex-family-sec-btn {
+  font-size: 130px;
+}
+
+/* Oybek Domlaniki */
+
+#families-table {
+    width: 100%;
+  }
+  
+  #families-table,
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    border-collapse: collapse;
+  }
+  
+  #families-table > thead {
+    width: 100%;
+    height: auto;
+    background-color: #eff0f4;
+  }
+  
+  #table-header-top > div {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  #table-header-top > div > span {
+    color: #515666;
+    margin-bottom: 7px;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  #table-header-top > div > select {
+    padding: 4px;
+    font-size: 12px;
+    outline: none;
+  }
+  #table-header-top > div > input {
+    padding: 4px;
+    font-size: 12px;
+    outline: none;
+  }
+  
+  /* families-table-tbody */
+  
+  #families-table-tbody > tr > td {
+    padding: 1% 0.5%;
+  }
+  
+  #families-table-tbody > tr > :first-child {
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #ex-family {
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,245 @@
+/* #modal {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(10, 10, 32, 0.562);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal {
+    display: flex !important;
+}
+
+#modal {
+    max-width: 390px;
+    width: 100%;
+    height: auto;
+    background-color: red;
+    padding: 2%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.modal {
+    display: none !important;
+} */
+
+#modal {
+    color: #527077;
+    
+}
+
+#modal-main {
+    background-color: #F5F5F5;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    top: 150px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#modal-main > h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+#modal-bg-blue {
+    background-color: #D2F3FD;
+    height: 350px;
+}
+
+
+
+#modal-main-inside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 50px 0;
+    
+}
+
+#modal-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#modal-left-dark {
+    background-color: #d5d4d4b3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    padding: 15px 0 15px 10px;
+    flex-wrap: wrap;
+}
+
+#modal-left-dark p {
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+
+#modal-left-light {
+    background-color: #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    padding: 15px 0 15px 10px;
+    flex-wrap: wrap;
+}
+
+#modal-left-light p {
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+
+#modal-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#modal-right-dark button {
+    padding: 10px 10px;
+}
+
+#modal-right-dark {
+    background-color: #d5d4d4b3;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    padding: 30px 0 30px 10px;
+    flex-wrap: wrap;
+    font-size: 17px;
+}
+
+#modal-right-dark :first-child {
+    border: none;
+}
+
+#modal-right-dark :last-child {
+    border: none;
+}
+
+#modal-right-dark span, button {
+    border-left: 3px solid #C6C6C6;
+    padding-left: 10px;
+}
+
+
+#modal-right-light button {
+    padding: 10px 10px;
+}
+
+#modal-right-light {
+    background-color: #ededed;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    padding: 30px 0 30px 10px;
+    flex-wrap: wrap;
+    font-size: 17px;
+}
+
+#modal-right-light :first-child {
+    border: none;
+}
+
+#modal-right-light :last-child {
+    border: none;
+}
+
+#modal-right-light span, button {
+    border-left: 3px solid #C6C6C6;
+    padding-left: 10px;
+}
+
+
+
+/* #modal-right-light :first-child {
+    border: none;
+}
+
+#modal-right-light :last-child {
+    border: none;
+}
+
+#modal-right-light span {
+    border-left: 3px solid #C6C6C6;
+    padding-left: 10px;
+}
+
+#modal-right-light {
+    background-color: #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    gap: 1.5rem;
+    padding: 30px 0 30px 10px;
+    flex-wrap: wrap;
+    font-size: 17px;
+} */
+
+
+
+
+#modal-right-top-text {
+    background-color: #ededed;
+    padding: 15px 15px;
+}
+
+#modal-right-bottom-btns {
+    display: flex;
+    gap: 1rem;
+    background: none;
+    outline: none;
+}
+
+#modal-right-bottom-btns :first-child {
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+#modal-right-bottom-btns :first-child button {
+    padding: 17px 25px;
+    font-size: 19px;
+    background-color: #2B52DE;
+    color: white;
+    border: 1px solid #2B52DE;
+}
+
+#modal-right-bottom-btns :nth-child(2) {
+    padding: 15px 25px;
+    border: 1px solid #2B52DE;
+    border-radius: 10px;
+    color: #2B52DE;
+    font-size: 19px;
+}
+
+#modal-right-upload-btn {
+    background-color: #2B52DE;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}

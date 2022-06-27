@@ -1,0 +1,58 @@
+#home-page {
+  width: 100%;
+  height: 100%;
+  padding-top: 4.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#home-page > :first-child {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#home-card-info {
+  width: 450px;
+  height: 220px;
+  border: 3px solid #1976d2;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  margin: 2%;
+}
+
+#home-card-info > p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 135%;
+}
+
+#home-card-info >a> button {
+  width: 100%;
+  height: 45px;
+  font-size: 19px;
+  letter-spacing: 2px;
+}
+#home-card-info > button {
+  width: 100%;
+  height: 45px;
+  font-size: 19px;
+  letter-spacing: 2px;
+}
+#home-card-info > a{
+  text-decoration: none;
+}
+
+#home-page > div > :last-child {
+  height: 170px;
+}
